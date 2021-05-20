@@ -89,7 +89,7 @@ if($token == $hashed_secret){ // Valid Login, check Auth Provider
 		
 		// Does the user already exist?
 		if(userExists()){
-			// 	Yes? - Check for VPN Plan
+			// 	Yes? - Check for Service
 			if(userHasAccess()){
 				// User has Service, forward them behind paywall
 			}
